@@ -1,0 +1,17 @@
+[
+  {
+    "language": "zh",
+    "locale": [
+      "cn",
+      "hk",
+      "tw"
+    ]
+  },
+  {
+    "language": "en",
+    "locale": [
+      "gb",
+      "us"
+    ]
+  }
+]

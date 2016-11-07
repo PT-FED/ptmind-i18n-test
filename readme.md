@@ -13,7 +13,7 @@
       - [ ] language_locale.js:项目使用的语言和方言
       - [ ] requestI18n.js:从ptmind-118n项目更新i18n
 
-## 更新i18n的2中方式
+## 更新i18n的2种方式
 
 - [ ] grunt构建(grunt i18n-init)
 - [ ] 外部发起http 更新请求(http://localhost:3000/updateI18n)
@@ -21,5 +21,4 @@
 ## 启动项目
 
 grunt i18n-init
-
 node bin/www

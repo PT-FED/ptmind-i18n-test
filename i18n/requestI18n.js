@@ -3,7 +3,7 @@ var http = require('http');
 var path = require('path');
 var q = require('q');
 var projectName = require('../package.json').name;
-var sourceI18nUrl = 'http://192.168.3.123:4300/';
+var sourceI18nUrl = require('../package.json').sourceI18nUrl;
 var distI18nDir = path.join(__dirname, '../i18n/build/');
 module.exports=function(language_locale,callback) {
     var getI18nDefers = [];
@@ -39,4 +39,4 @@ module.exports=function(language_locale,callback) {
             callback(ress);
         });
     });
-}
+};

@@ -19,6 +19,6 @@
 - [ ] 外部发起http 更新请求(http://localhost:3000/updateI18n)
 
 ## 启动项目
-
+修改package.json中的"sourceI18nUrl"［i18n项目地址］
 grunt i18n-init
 node bin/www
